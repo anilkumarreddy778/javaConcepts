@@ -1,0 +1,18 @@
+V11 ---stock and heap memory management 
+
+V12 ---singleton design pattern
+
+V13----Difference between Interface and Abstract class
+V14----can we overload a main() method - yes with different parameters
+V15 ---- why String is immutable and Final in java
+
+V16 --- how to find Prime number 
+V17 --- How to check Palindrome number
+V18 --- How to find ArmStrong number----
+V19 --- how to find Factorial of a number using Recursive and non Recursive //1*2*3*4=24---4
+V20 --- can we override a static method in child class - can't 
+V21 --- Different ways of iterating a ArrayList
+V22 --- Count number of duplicates in words in given String
+V23 --- About NULL in java
+V24 --- How to verify if the String contains only Digits
+V25 --- Explain Interface Concept
