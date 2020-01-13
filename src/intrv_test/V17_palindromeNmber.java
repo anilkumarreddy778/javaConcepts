@@ -34,7 +34,7 @@ public class V17_palindromeNmber {
 	public static void main(String[] args)
 	{
 		
-		ispalindrom(101);
+		ispalindrom(1021);
 		
 	}
 }

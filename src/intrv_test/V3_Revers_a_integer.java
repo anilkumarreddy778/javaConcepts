@@ -3,9 +3,8 @@ package intrv_test;
 public class V3_Revers_a_integer {
 	
 	
-	public static void ReverseanInteger() {
+	public static void ReverseanInteger(int k) {
   // TODO Auto-generated method stub
-		  int k = 100;
 		  int r;
 		  while(k>0) {
 		   r=k%10;
@@ -21,8 +20,11 @@ public class V3_Revers_a_integer {
 	
 	public static void main(String[] args)
 	{
-		ReverseanInteger();
-		long num=1001;
+		ReverseanInteger(100);
+		
+		
+		
+		long num=1201;
 		long rev=0;
 		
 		while(num !=0) 

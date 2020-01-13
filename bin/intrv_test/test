@@ -1,18 +1,68 @@
-V11 ---stock and heap memory management 
+V1 --- Reverse the String
+V2 --- Remove String int spicalCharachers  --- s=s.replaceAll("[^a-zA-Z0-9]", "");
+V3 --- Reverse a Integer  ---   int r;
+		  while(k>0) {
+		   r=k%10;
+		   k=k/10;
+V4 --- How to find missing numb in Array 
+V5 --- How to find Duplicate String in Array
+V6 --- Find Smallest And LargestNum in Array
+V7 --- String Manipulation 
+V8 --- Swap 2 Integer Variables 
+V9 --- Swap String without Temp Third Variable
+V10 -- Final Finally Finalize // finally - block of statement will get execute , Finalize = garbage collection for unused objects
 
-V12 ---singleton design pattern
+V11 -- Stock and heap memory management 
 
-V13----Difference between Interface and Abstract class
-V14----can we overload a main() method - yes with different parameters
-V15 ---- why String is immutable and Final in java
+V12 -- singleton design pattern
 
-V16 --- how to find Prime number 
-V17 --- How to check Palindrome number
-V18 --- How to find ArmStrong number----
-V19 --- how to find Factorial of a number using Recursive and non Recursive //1*2*3*4=24---4
-V20 --- can we override a static method in child class - can't 
-V21 --- Different ways of iterating a ArrayList
-V22 --- Count number of duplicates in words in given String
-V23 --- About NULL in java
-V24 --- How to verify if the String contains only Digits
-V25 --- Explain Interface Concept
+V13 -- Difference between Interface and Abstract class
+V14 -- can we overload a main() method - yes with different parameters
+V15 -- why String is immutable and Final in java
+
+V16 -- how to find Prime number - 2 3 5 7 11 13 17 19 23 29 
+public static boolean prime(int num){
+		if(num<=1){
+		return false;
+		}
+		
+		for(int=2; i<num;i++){
+		if(num%i==0)
+		{
+		return false;}
+		}
+		return true;
+	}	
+V17 -- How to check Palindrome number - 1221 , 21012
+
+		int r=0;
+		int sum=0;
+		int t;
+		
+		t=num;
+		
+		while(num>0)
+		{
+			r=num%10;
+			sum=(sum*10)+r;
+			num=num/10;
+		}
+		
+		if(t==sum)
+		{
+			System.out.println("it's a palindrom ");
+		}else {
+			System.out.println("not a palindrom");
+		}
+		
+V18 -- How to find ArmStrong number---- //153 , 407, 370 , 371 //1*1*1=1 //5*5*5=125 //3*3*3=27 //1+125+27=153
+
+V19 -- how to find Factorial of a number using Recursive and non Recursive //1*2*3*4=24 --- 4
+
+V20 -- can we override a static method in child class - can't  because scope of static member will be with in the class.
+
+V21 -- Different ways of iterating a ArrayList - by foreach Loop / for loop/  (this all about print array in different ways)
+V22 -- Count number of duplicates in words in given String - using HashMap and Set 
+V23 -- About NULL in java - default ref value will be null / throw null Ref object we can access static methods / casesenesitve
+V24 -- How to verify if the String contains only Digits -  if(! Character.isDigit(cs.charAt(i))) {	return false; }
+V25 -- Explain Interface Concept
