@@ -68,3 +68,36 @@ V22 -- Count number of duplicates in words in given String - using HashMap and S
 V23 -- About NULL in java - default ref value will be null / throw null Ref object we can access static methods / casesenesitve
 V24 -- How to verify if the String contains only Digits -  if(! Character.isDigit(cs.charAt(i))) {	return false; }
 V25 -- Explain Interface Concept
+
+
+
+
+ i make developers cry
+Bakkappa N - TheTechie AutomationLaboratory
+
+https://cucumber.io/docs/cucumber/
+
+https://automationrhapsody.com/introduction-to-cucumber-and-bdd-with-examples/
+
+https://www.youtube.com/watch?v=a_vZ4cKQhzk --- excel dat fillo
+https://www.youtube.com/watch?v=qWgqc4xOL5o
+
+https://www.youtube.com/watch?v=IWAZfXZHphc -  - ssh key generating
+
+https://www.youtube.com/watch?v=y5EIGC-YPI4 - junit report generating.
+
+https://www.youtube.com/watch?v=GnG6RPSRLCs - Agile and Jira
+https://updates.jenkins-ci.org/download/war/ - for downloding jenkins war file
+  org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[.='Submit & Logoutt'] org.openqa.selenium.ElementNotInteractableException:  when i am trying to print WebElement.
+2.3Y
+
+
+https://www.lntsustainability.com/health-safety/ - EHS Project descrip.
+
+Blogs : 
+http://www.pavantestingtools.com/p/agile.html
+http://www.pavantestingtools.com/2016/08/agile-scrum-for-testers.html  
+
+https://www.youtube.com/watch?v=m4KpTvEz3vg - selenium IDE
+
+https://the-internet.herokuapp.com/- test data 
