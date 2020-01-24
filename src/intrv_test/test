@@ -29,7 +29,8 @@ public static boolean prime(int num){
 		for(int=2; i<num;i++){
 		if(num%i==0)
 		{
-		return false;}
+		return false;
+		}
 		}
 		return true;
 	}	
@@ -46,6 +47,7 @@ V17 -- How to check Palindrome number - 1221 , 21012
 			r=num%10;
 			sum=(sum*10)+r;
 			num=num/10;
+			
 		}
 		
 		if(t==sum)

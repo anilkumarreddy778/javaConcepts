@@ -38,7 +38,7 @@ public class V16_Prime_number {
 //		// Reading data using readLine
 //		String name = reader.readLine();
 
-		System.out.println("100 is a prim number : "+isprimnum(2) );
+		System.out.println("100 is a prim number : "+isprimnum(6) );
 		getprimnumber(100);
 
 	}
