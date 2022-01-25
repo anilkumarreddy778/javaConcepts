@@ -2,7 +2,7 @@ package intrv_test;
 
 import java.io.IOException;
 
-
+// any number divide by 1 or by itself
 public class V16_Prime_number {
 
 	public static boolean isprimnum(int num) {
